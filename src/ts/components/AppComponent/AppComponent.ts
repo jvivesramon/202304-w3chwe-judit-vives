@@ -3,14 +3,14 @@ import PokemonListComponent from "../PokemonListComponent/PokemonListComponent.j
 
 class AppComponent extends Component {
   constructor(parentElement: HTMLElement) {
-    super(parentElement, "app-container", "div");
+    super(parentElement, "div", "app-container");
     this.renderHtml();
   }
 
   renderHtml(): void {
     this.element.innerHTML = `
     <header class="header-container">
-      <img src="pokemon-logo.svg" alt="" width="270" height="99">
+      <img src="../../../images/pokemon-logo.svg" alt="" width="270" height="99">
     </header>
     <main class="content-container">
       <nav class="nav-bar-container">
