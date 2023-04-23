@@ -1,9 +1,11 @@
 export interface PokemonStructure {
+  results: Pokemons[];
   name: string;
   url: string;
 }
 
 export interface Pokemons {
+  url: string;
   results: PokemonStructure[];
 }
 

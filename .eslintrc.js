@@ -18,7 +18,7 @@ module.exports = {
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/no-empty-function": "off",
         "no-unused-vars": "off",
-        "no-new": "error",
+        "no-new": "off",
       },
     },
   ],
@@ -28,17 +28,5 @@ module.exports = {
   },
   rules: {
     "no-console": "error",
-    "no-new": "off",
-    "no-unused-vars": [
-      "error",
-      {
-        vars: "all",
-        args: "after-used",
-        ignoreRestSiblings: true,
-        argsIgnorePattern: /^_/.source,
-        caughtErrors: "all",
-        caughtErrorsIgnorePattern: /^_$/.source,
-      },
-    ],
   },
 };
