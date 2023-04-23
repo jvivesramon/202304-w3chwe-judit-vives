@@ -28,6 +28,7 @@ module.exports = {
   },
   rules: {
     "no-console": "error",
+    "no-new": "off",
     "no-unused-vars": [
       "error",
       {
